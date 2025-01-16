@@ -2,13 +2,13 @@
 This project implements an automated ETL (Extract, Transform, Load) pipeline for the Rick and Morty API data using Apache Airflow. The pipeline extracts character, location, and episode data from the Rick and Morty API, transforms it, stores it in PostgreSQL, and visualizes it using Power BI. The entire solution is containerized using Docker for easy deployment and scalability.
 
 # Features
-1. Automated data pipeline using Apache Airflow
-2. Containerized solution with Docker
-3. Data extraction from Rick and Morty API
-4. Data transformation and cleaning
-5. Persistent storage in PostgreSQL database
-6. Interactive dashboards in Power BI
-7. Scheduled data updates
+1. Extract character, location, and episode data from Rick and Morty AP
+2. Data transformation and cleaning
+3. Persistent storage in PostgreSQL database
+4. Interactive dashboards in Power BI
+5. Scheduled data updates
+6. Automate the entire process using Apache Airflow
+7. Containerized solution with Docker
 
 # Technologies Used
 1. Python
