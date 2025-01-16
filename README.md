@@ -17,3 +17,6 @@ This project implements an automated ETL (Extract, Transform, Load) pipeline for
 4. PostgreSQL
 5. Power BI
 6. Rick and Morty API
+
+# Project Architechure
+![Project Architecture](C:\Users\rejoi\OneDrive\Documents\rick-morty)
