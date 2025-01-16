@@ -11,12 +11,13 @@ This project implements an automated ETL (Extract, Transform, Load) pipeline for
 7. Containerized solution with Docker
 
 # Technologies Used
-1. Python
-2. Apache Airflow
-3. Docker
-4. PostgreSQL
-5. Power BI
-6. Rick and Morty API
+1. Container Platform: Docker
+2. Orchestration: Apache Airflow
+3. Programming Language: Python 3.x
+4. Database: PostgreSQL
+5. Visualization: Power BI
+6. Version Control: Git
+7. API: Rick and Morty REST API
 
 # Project Architechure
 ![Project Architecture](https://github.com/user-attachments/assets/8debafca-c7d1-45c7-acd1-1b59b7bcfd86)
