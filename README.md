@@ -19,4 +19,4 @@ This project implements an automated ETL (Extract, Transform, Load) pipeline for
 6. Rick and Morty API
 
 # Project Architechure
-![Project Architecture](C:\Users\rejoi\OneDrive\Documents\rick-morty)
+![Project Architecture](https://github.com/user-attachments/assets/8debafca-c7d1-45c7-acd1-1b59b7bcfd86)
