@@ -1,0 +1,15 @@
+# Ignore everything
+*
+
+# Allow specific files and folders
+!.gitignore
+!analytics.pbix
+!docker-compose.yml
+!scripts/
+!airflow/
+!airflow/dags/
+!README.md
+
+# Ignore subfolders within airflow except dags
+airflow/*
+!airflow/dags/
