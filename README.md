@@ -21,3 +21,22 @@ This project implements an automated ETL (Extract, Transform, Load) pipeline for
 
 # Project Architechure
 ![Project Architecture](https://github.com/user-attachments/assets/8debafca-c7d1-45c7-acd1-1b59b7bcfd86)
+
+# Pipeline Components
+1. Data Extraction (fetchdata.py)
+   a) Connects to the Rick and Morty API
+   b) Extracts data about characters, locations, and episodes
+   c) Handles API pagination and rate limiting
+   d) Performs initial data transformation and cleaning
+
+2. Data Loading (loaddata.py)
+   a) Manages database connections
+   b) Creates necessary database schema
+   c) Loads transformed data into PostgreSQL
+   d) Handles data updates and integrity
+
+3. Airflow DAG (rickmorty.py)
+   a) Orchestrates the ETL workflow
+   b) Schedules regular data updates
+   c) Monitors pipeline execution
+   d) Handles error reporting and retries
